@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=MonteCarlo&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Vollkorn:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(236, 234, 234);
+    font-family: 'Merienda', cursive;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgba(68, 65, 65, 0.9);
+    padding: 25px 20px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgb(155, 93, 155);
+}
+
+.card h2 {
+    color: white;
+}
+
+.card form input {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    outline: none;
+    transition: .5s;
+}
+
+.card form input:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 15px white;
+}
+
+.card form .error {
+    color: red;
+    margin-top: 0;
+}
+
+.card form button {
+    padding: 12px 20px;
+    width: 75%;
+    background-color: rgb(155, 93, 155);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.card form button:hover {
+    box-shadow: 0 0 30px rgb(155, 93, 155);
+    color: rgb(68, 65, 65);
+    text-shadow: 0 0 500px rgb(155, 93, 155);
+}
+
+.link {
+    padding-top: 20px;
+}
+
+.link a {
+    color: whitesmoke;
+}
